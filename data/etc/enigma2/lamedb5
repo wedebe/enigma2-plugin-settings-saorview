@@ -1,0 +1,68 @@
+eDVB services /5/
+# Transponders: t:dvb_namespace:transport_stream_id:original_network_id,FEPARMS
+#     DVBS  FEPARMS:   s:frequency:symbol_rate:polarisation:fec:orbital_position:inversion:flags
+#     DVBS2 FEPARMS:   s:frequency:symbol_rate:polarisation:fec:orbital_position:inversion:flags:system:modulation:rolloff:pilot[,MIS/PLS:is_id:pls_code:pls_mode][,T2MI:t2mi_plp_id:t2mi_pid]
+#     DVBT  FEPARMS:   t:frequency:bandwidth:code_rate_HP:code_rate_LP:modulation:transmission_mode:guard_interval:hierarchy:inversion:flags:system:plp_id
+#     DVBC  FEPARMS:   c:frequency:symbol_rate:inversion:modulation:fec_inner:flags:system
+#     ATSC  FEPARMS:   a:frequency:inversion:modulation:flags:system
+# Services    : s:service_id:dvb_namespace:transport_stream_id:original_network_id:service_type:service_number:source_id,"service_name"[,p:provider_name][,c:cached_pid]*[,C:cached_capid]*[,f:flags]
+t:eeee0000:03e9:2174,t:546000000:0:1:1:2:1:0:0:2:0:0:0
+t:eeee0000:03ea:2174,t:570000000:0:1:1:2:1:0:0:2:0:0:0
+s:08c1:eeee0000:03ea:2174:2:0:0,"Radio Maria Ireland",p:RTÉNL,f:40
+s:08c2:eeee0000:03ea:2174:2:0:0,"UCB Ireland",p:RTÉNL,f:40
+s:08c3:eeee0000:03ea:2174:2:0:0,"",p:RTÉNL,f:40
+s:08c4:eeee0000:03ea:2174:2:0:0,"",p:RTÉNL,f:40
+s:08c5:eeee0000:03ea:2174:2:0:0,"RTÉ Radio 1 Extra",p:RTÉNL,f:40
+s:08c6:eeee0000:03ea:2174:2:0:0,"RTÉ Pulse",p:RTÉNL,f:40
+s:08c7:eeee0000:03ea:2174:2:0:0,"RTÉ 2XM",p:RTÉNL,f:40
+s:08c8:eeee0000:03ea:2174:2:0:0,"",p:RTÉNL,f:40
+s:08c9:eeee0000:03ea:2174:2:0:0,"RTÉ Gold",p:RTÉNL,f:40
+s:04ca:eeee0000:03e9:2174:2:0:0,"RTÉ Radio 1",p:RTÉNL,f:40
+s:08ca:eeee0000:03ea:2174:2:0:0,"RTÉ Chill",p:RTÉNL,f:40
+s:04cb:eeee0000:03e9:2174:2:0:0,"RTÉ 2FM",p:RTÉNL,f:40
+s:04cc:eeee0000:03e9:2174:2:0:0,"RTÉ Lyric",p:RTÉNL,f:40
+s:04cd:eeee0000:03e9:2174:2:0:0,"RTÉ Raidió na Gaeltachta",p:RTÉNL,f:40
+s:04ce:eeee0000:03e9:2174:2:0:0,"RTÉ Radio 1 Extra",p:RTÉNL,f:40
+s:04cf:eeee0000:03e9:2174:2:0:0,"RTÉ Pulse.",p:RTÉNL,f:40
+s:04d0:eeee0000:03e9:2174:2:0:0,"RTÉ 2XM.",p:RTÉNL,f:40
+s:04d1:eeee0000:03e9:2174:2:0:0,"RTÉ Junior",p:RTÉNL,f:40
+s:04d2:eeee0000:03e9:2174:2:0:0,"RTÉ Gold.",p:RTÉNL,f:40
+s:04d3:eeee0000:03e9:2174:2:0:0,"RTÉ Chill.",p:RTÉNL,f:40
+s:050a:eeee0000:03e9:2174:12:0:0,"",p:RTÉNL,f:40
+s:0834:eeee0000:03ea:2174:12:0:0,"SSU",p:RTÉNL,f:40
+s:044c:eeee0000:03e9:2174:12:0:0,"SSU",p:RTÉNL,c:031fff,f:40
+s:0836:eeee0000:03ea:2174:22:0:0,"RTÉ2 +1",p:RTÉNL,f:40,a:rtenl.ie
+s:0837:eeee0000:03ea:2174:22:0:0,"Virgin Media 3",p:RTÉNL,f:40,a:rtenl.ie
+s:0838:eeee0000:03ea:2174:22:0:0,"TG4 +1",p:RTÉNL,f:40,a:rtenl.ie
+s:0839:eeee0000:03ea:2174:22:0:0,"",p:RTÉNL,f:40,a:rtenl.ie
+s:083a:eeee0000:03ea:2174:22:0:0,"Cúla4",p:RTÉNL,f:40,a:rtenl.ie
+s:083b:eeee0000:03ea:2174:22:0:0,"Virgin Media 4",p:RTÉNL,f:40,a:rtenl.ie
+s:083c:eeee0000:03ea:2174:22:0:0,"Challenge",p:RTÉNL,f:40,a:rtenl.ie
+s:083d:eeee0000:03ea:2174:22:0:0,"",p:RTÉNL,f:40,a:rtenl.ie
+s:083e:eeee0000:03ea:2174:22:0:0,"",p:RTÉNL,f:40,a:rtenl.ie
+s:083f:eeee0000:03ea:2174:22:0:0,"RTÉ One +1",p:RTÉNL,f:40,a:rtenl.ie
+s:0845:eeee0000:03ea:2174:22:0:0,"RTÉ Junior",p:RTÉNL,f:40,a:rtenl.ie
+s:0846:eeee0000:03ea:2174:22:0:0,"Sky News",p:RTÉNL,f:40,a:rtenl.ie
+s:0847:eeee0000:03ea:2174:22:0:0,"",p:RTÉNL,f:40,a:rtenl.ie
+s:0848:eeee0000:03ea:2174:22:0:0,"Saorview Information",p:RTÉNL,f:40,a:rtenl.ie
+s:0849:eeee0000:03ea:2174:22:0:0,"Saorview Information",p:RTÉNL,f:40
+s:084a:eeee0000:03ea:2174:22:0:0,"",p:RTÉNL,f:40,a:rtenl.ie
+s:044d:eeee0000:03e9:2174:22:0:0,"Tithe an Oireachtais",p:RTÉNL,f:40
+s:044f:eeee0000:03e9:2174:22:0:0,"Virgin Media 1",p:RTÉNL,f:40,a:rtenl.ie
+s:0451:eeee0000:03e9:2174:22:0:0,"RTÉ News",p:RTÉNL,f:40,a:rtenl.ie
+s:0452:eeee0000:03e9:2174:22:0:0,"Virgin Media 2",p:RTÉNL,f:40,a:rtenl.ie
+s:0852:eeee0000:03ea:2174:22:0:0,"2rn",p:RTÉNL,f:40,a:rtenl.ie
+s:0453:eeee0000:03e9:2174:22:0:0,"",p:RTÉNL,f:40
+s:0454:eeee0000:03e9:2174:22:0:0,"",p:RTÉNL,f:40
+s:0455:eeee0000:03e9:2174:22:0:0,"",p:RTÉNL,f:40
+s:0456:eeee0000:03e9:2174:22:0:0,"",p:RTÉNL,f:40
+s:0457:eeee0000:03e9:2174:22:0:0,"",p:RTÉNL,f:40
+s:0458:eeee0000:03e9:2174:22:0:0,"",p:RTÉNL,f:40
+s:0459:eeee0000:03e9:2174:22:0:0,"",p:RTÉNL,f:40
+s:045a:eeee0000:03e9:2174:22:0:0,"",p:RTÉNL,f:40
+s:045b:eeee0000:03e9:2174:22:0:0,"",p:RTÉNL,f:40
+s:04a5:eeee0000:03e9:2174:22:0:0,"2rn",p:RTÉNL,f:40
+s:0835:eeee0000:03ea:2174:25:0:0,"RTÉ One",p:RTÉNL,f:40,a:rtenl.ie
+s:044e:eeee0000:03e9:2174:25:0:0,"RTÉ2",p:RTÉNL,f:40,a:rtenl.ie
+s:0450:eeee0000:03e9:2174:25:0:0,"TG4",p:RTÉNL,f:40,a:rtenl.ie
+# done. 2 channels and 57 services
